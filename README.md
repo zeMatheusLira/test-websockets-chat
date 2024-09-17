@@ -39,7 +39,7 @@ Este é um projeto de aplicação de chat em tempo real utilizando **WebSockets*
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/zeMatheusLira/websocket-chat-app.git
+    git clone https://github.com/zeMatheusLira/test-websockets-chat.git
     ```
    
 2. Acesse o diretório do projeto:
