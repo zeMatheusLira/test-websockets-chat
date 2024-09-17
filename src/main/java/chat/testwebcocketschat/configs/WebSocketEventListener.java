@@ -24,7 +24,7 @@ public class WebSocketEventListener {
         String username = (String) accessor.getSessionAttributes().get("username");
         if (username != null) {
             log.info(" User disconnected: {}",  username);
-            var chatMessage = ChatMessage.builder().type(MessageType.LEAVER).sender(username)
+            var chatMessage = ChatMessage.builder().type(MessageType.LEAVE).sender(username)
                     .build();
             messageTemplate.convertAndSend("/topic/public", chatMessage);
 
